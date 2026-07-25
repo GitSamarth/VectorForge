@@ -8,6 +8,21 @@ Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-
 > retrieval confidence is low, enforced in code rather than by prompt alone — 
 > was verified with debug logging to confirm it fires independently of the 
 > LLM's own behavior.
+---
+
+## Quick Start
+
+**Requires:** g++ (via MSYS2), Ollama running locally with `nomic-embed-text` and `llama3.2` pulled — see [Prerequisites](#prerequisites) below if you don't have these yet.
+
+```bash
+git clone https://github.com/GitSamarth/VectorForge.git
+cd VectorForge
+.\run.bat
+```
+
+Then open `http://localhost:8080` in your browser.
+
+---
 
 ## What This Project Does
 
