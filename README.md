@@ -1,9 +1,7 @@
 # VectorForge — Build a Vector Database from Scratch in C++
 
-A fully working **Vector Database** built from scratch in C++ with a web UI.  
-Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-side, plus a **RAG pipeline** powered by a local LLM via Ollama.
-
-> Built as an educational project to explore how vector database internals work — implementing and comparing three retrieval algorithms, with a RAG pipeline that includes a code-enforced groundedness check rather than relying on prompt instructions alone.
+A C++ implementation with a web UI, exploring how vector databases work internally.  
+Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-side, plus a **RAG pipeline** with a code-level groundedness gate that refuses to answer when retrieval confidence is below a distance threshold, rather than relying on prompt instructions alone.
 
 ---
 
@@ -11,7 +9,7 @@ Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-
 
 | Feature | Description |
 |---|---|
-| **3 Search Algorithms** | HNSW (production-grade), KD-Tree, Brute Force — run all three and compare speed |
+| **3 Search Algorithms** | HNSW , KD-Tree, Brute Force — run all three and compare speed |
 | **3 Distance Metrics** | Cosine similarity, Euclidean distance, Manhattan distance |
 | **16D Demo Vectors** | 20 pre-loaded semantic vectors across 4 categories (CS, Math, Food, Sports) |
 | **2D PCA Scatter Plot** | Live visualization of semantic space — watch clusters form |
