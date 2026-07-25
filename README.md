@@ -360,4 +360,6 @@ Recompile and restart.
 
 ## License
 
-MIT — use this however you want.
+MIT License — Copyright (c) 2026 Samarth Mahajan
+
+Use this however you want.
