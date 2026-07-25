@@ -4,6 +4,10 @@ A C++ implementation with a web UI, exploring how vector databases work internal
 Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-side, plus a **RAG pipeline** with a code-level groundedness gate that refuses to answer when retrieval confidence is below a distance threshold, rather than relying on prompt instructions alone.
 
 ---
+> **Note:** the RAG pipeline's groundedness gate — refusing to answer when 
+> retrieval confidence is low, enforced in code rather than by prompt alone — 
+> was verified with debug logging to confirm it fires independently of the 
+> LLM's own behavior.
 
 ## What This Project Does
 
