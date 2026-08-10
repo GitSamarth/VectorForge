@@ -1,7 +1,7 @@
 # VectorForge — Build a Vector Database from Scratch in C++
 
 A C++ implementation with a web UI, exploring how vector databases work internally.  
-Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-side, plus a **RAG pipeline** with a code-level groundedness gate that refuses to answer when retrieval confidence is below a distance threshold, rather than relying on prompt instructions alone.
+Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-side, plus a **RAG pipeline** with a code-level groundedness gate that refuses to answer when retrieval confidence is below a distance threshold, rather than relying on prompt instructions alone. 
 
 ---
 > **Note:** the RAG pipeline's groundedness gate — refusing to answer when 
