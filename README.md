@@ -9,6 +9,7 @@ Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-
 > was verified with debug logging to confirm it fires independently of the 
 > LLM's own behavior.
 ---
+<img width="1917" height="972" alt="image" src="https://github.com/user-attachments/assets/7c06938b-38d4-40b3-8694-9231c0e0703a" />
 
 ## Quick Start
 
